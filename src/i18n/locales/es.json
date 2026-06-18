@@ -1,0 +1,176 @@
+{
+  "common": {
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "pending": "Pendiente",
+    "approved": "Aprobado",
+    "rejected": "Rechazado",
+    "total": "total",
+    "refresh": "Actualizar",
+    "add": "Agregar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "search": "Buscar",
+    "clear": "Limpiar",
+    "filters": "Filtros",
+    "hideFilters": "Ocultar Filtros",
+    "exportExcel": "Exportar Excel",
+    "loading": "Cargando...",
+    "noData": "Sin datos disponibles",
+    "records": "registros",
+    "types": "tipos",
+    "signOut": "Cerrar sesión",
+    "welcomeBack": "Bienvenido de vuelta",
+    "actions": "Acciones",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "view": "Ver",
+    "confirmDelete": "¿Está seguro que desea eliminar este registro?"
+  },
+  "nav": {
+    "dashboard": "Panel",
+    "employees": "Empleados",
+    "users": "Usuarios",
+    "roles": "Roles",
+    "absenceTypes": "Tipos de Ausencia",
+    "absences": "Ausencias",
+    "overview": "RESUMEN",
+    "management": "GESTIÓN",
+    "attendance": "ASISTENCIA",
+    "reports": "Ausencias"
+  },
+  "reports": {
+    "absencesTitle": "Reporte de Ausencias",
+    "absencesSubtitle": "Reporte pivote mostrando el total de días de ausencia por tipo para cada empleado."
+  },
+  "login": {
+    "title": "Bienvenido de vuelta",
+    "subtitle": "Inicia sesión en tu cuenta para continuar",
+    "username": "Usuario",
+    "password": "Contraseña",
+    "submit": "Iniciar sesión",
+    "submitting": "Iniciando sesión...",
+    "security": "Protegido con cifrado de extremo a extremo",
+    "errors": {
+      "usernameRequired": "El usuario es requerido",
+      "passwordRequired": "La contraseña es requerida",
+      "invalidCredentials": "Credenciales inválidas. Por favor intente de nuevo.",
+      "connectionError": "Error de conexión. Verifique su red e intente de nuevo.",
+      "loginSuccess": "¡Inicio de sesión exitoso! Redirigiendo..."
+    }
+  },
+  "dashboard": {
+    "title": "Panel",
+    "subtitle": "Resumen del sistema Payment Evolution",
+    "kpi": {
+      "employees": "Total Empleados",
+      "users": "Usuarios del Sistema",
+      "roles": "Roles",
+      "absences": "Ausencias (Mes)"
+    },
+    "trends": {
+      "employees": "+3 este mes",
+      "users": "+1 esta semana",
+      "roles": "Estable",
+      "absences": "-2 vs mes anterior"
+    },
+    "charts": {
+      "absencesByMonth": "Ausencias por Mes",
+      "currentYear": "Año Actual",
+      "employeesByDept": "Empleados por Departamento",
+      "distribution": "Distribución"
+    },
+    "quickAccess": "Acceso Rápido",
+    "quickLinks": {
+      "employees": "Ver Empleados",
+      "users": "Gestionar Usuarios",
+      "roles": "Configurar Roles",
+      "absences": "Ver Ausencias"
+    }
+  },
+  "employees": {
+    "title": "Empleados",
+    "subtitle": "Gestione los empleados de su organización",
+    "searchPlaceholder": "Buscar por nombre o ID...",
+    "addButton": "Agregar Empleado",
+    "filters": {
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "status": "Estado",
+      "all": "Todos",
+      "search": "Consultar",
+      "clear": "Limpiar"
+    },
+    "columns": {
+      "id": "ID",
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "hireDate": "Fecha de Ingreso",
+      "status": "Estado",
+      "actions": "Acciones"
+    },
+    "actions": {
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "view": "Ver",
+      "confirmDelete": "¿Está seguro que desea eliminar este empleado?"
+    }
+  },
+  "users": {
+    "title": "Usuarios",
+    "subtitle": "Gestione el acceso al sistema y las cuentas de usuario",
+    "searchPlaceholder": "Buscar por usuario o ID...",
+    "addButton": "Agregar Usuario",
+    "columns": {
+      "id": "ID de Usuario",
+      "username": "Usuario",
+      "status": "Estado"
+    }
+  },
+  "roles": {
+    "title": "Roles",
+    "subtitle": "Defina niveles de acceso y permisos para su equipo",
+    "searchPlaceholder": "Buscar por nombre de rol...",
+    "addButton": "Agregar Rol",
+    "columns": {
+      "id": "ID de Rol",
+      "name": "Nombre",
+      "status": "Estado"
+    }
+  },
+  "absences": {
+    "title": "Ausencias",
+    "subtitle": "Rastree y gestione los registros de licencias",
+    "addButton": "Nueva Ausencia",
+    "dateFrom": "Desde",
+    "dateTo": "Hasta",
+    "dateRange": "Rango de fechas:",
+    "clearFilter": "Limpiar",
+    "columns": {
+      "id": "ID",
+      "date": "Fecha",
+      "status": "Estado"
+    }
+  },
+  "absenceTypes": {
+    "title": "Tipos de Ausencia",
+    "subtitle": "Configure los tipos de licencia disponibles para los empleados",
+    "searchPlaceholder": "Buscar por descripción...",
+    "addButton": "Agregar Tipo",
+    "columns": {
+      "id": "ID",
+      "description": "Descripción",
+      "status": "Estado"
+    }
+  },
+  "theme": {
+    "light": "Modo claro",
+    "dark": "Modo oscuro"
+  },
+  "language": {
+    "label": "Idioma",
+    "en": "Inglés",
+    "es": "Español",
+    "fr": "Francés"
+  }
+}

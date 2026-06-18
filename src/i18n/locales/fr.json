@@ -1,0 +1,146 @@
+{
+  "common": {
+    "active": "Actif",
+    "inactive": "Inactif",
+    "pending": "En attente",
+    "approved": "Approuvé",
+    "rejected": "Rejeté",
+    "total": "total",
+    "refresh": "Actualiser",
+    "add": "Ajouter",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "search": "Rechercher",
+    "loading": "Chargement...",
+    "noData": "Aucune donnée disponible",
+    "records": "enregistrements",
+    "types": "types",
+    "signOut": "Déconnexion",
+    "welcomeBack": "Bon retour"
+  },
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "employees": "Employés",
+    "users": "Utilisateurs",
+    "roles": "Rôles",
+    "absenceTypes": "Types d'absence",
+    "absences": "Absences",
+    "overview": "APERÇU",
+    "management": "GESTION",
+    "attendance": "PRÉSENCE"
+  },
+  "login": {
+    "title": "Bon retour",
+    "subtitle": "Connectez-vous à votre compte pour continuer",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "submit": "Se connecter",
+    "submitting": "Connexion en cours...",
+    "security": "Sécurisé par chiffrement de bout en bout",
+    "errors": {
+      "usernameRequired": "Le nom d'utilisateur est requis",
+      "passwordRequired": "Le mot de passe est requis",
+      "invalidCredentials": "Identifiants invalides. Veuillez réessayer.",
+      "connectionError": "Erreur de connexion. Vérifiez votre réseau et réessayez.",
+      "loginSuccess": "Connexion réussie ! Redirection en cours..."
+    }
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "subtitle": "Vue d'ensemble du système Payment Evolution",
+    "kpi": {
+      "employees": "Total Employés",
+      "users": "Utilisateurs Système",
+      "roles": "Rôles",
+      "absences": "Absences (Mois)"
+    },
+    "trends": {
+      "employees": "+3 ce mois",
+      "users": "+1 cette semaine",
+      "roles": "Stable",
+      "absences": "-2 vs mois précédent"
+    },
+    "charts": {
+      "absencesByMonth": "Absences par Mois",
+      "currentYear": "Année en cours",
+      "employeesByDept": "Employés par Département",
+      "distribution": "Distribution"
+    },
+    "quickAccess": "Accès Rapide",
+    "quickLinks": {
+      "employees": "Voir Employés",
+      "users": "Gérer Utilisateurs",
+      "roles": "Configurer Rôles",
+      "absences": "Voir Absences"
+    }
+  },
+  "employees": {
+    "title": "Employés",
+    "subtitle": "Gérez les employés de votre organisation",
+    "searchPlaceholder": "Rechercher par nom ou ID...",
+    "addButton": "Ajouter Employé",
+    "columns": {
+      "id": "ID",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "status": "Statut"
+    }
+  },
+  "users": {
+    "title": "Utilisateurs",
+    "subtitle": "Gérez l'accès au système et les comptes utilisateurs",
+    "searchPlaceholder": "Rechercher par nom d'utilisateur ou ID...",
+    "addButton": "Ajouter Utilisateur",
+    "columns": {
+      "id": "ID Utilisateur",
+      "username": "Nom d'utilisateur",
+      "status": "Statut"
+    }
+  },
+  "roles": {
+    "title": "Rôles",
+    "subtitle": "Définissez les niveaux d'accès et permissions pour votre équipe",
+    "searchPlaceholder": "Rechercher par nom de rôle...",
+    "addButton": "Ajouter Rôle",
+    "columns": {
+      "id": "ID Rôle",
+      "name": "Nom",
+      "status": "Statut"
+    }
+  },
+  "absences": {
+    "title": "Absences",
+    "subtitle": "Suivez et gérez les congés des employés",
+    "addButton": "Nouvelle Absence",
+    "dateFrom": "Du",
+    "dateTo": "Au",
+    "dateRange": "Période :",
+    "clearFilter": "Effacer",
+    "columns": {
+      "id": "ID",
+      "date": "Date",
+      "status": "Statut"
+    }
+  },
+  "absenceTypes": {
+    "title": "Types d'Absence",
+    "subtitle": "Configurez les types de congé disponibles pour les employés",
+    "searchPlaceholder": "Rechercher par description...",
+    "addButton": "Ajouter Type",
+    "columns": {
+      "id": "ID",
+      "description": "Description",
+      "status": "Statut"
+    }
+  },
+  "theme": {
+    "light": "Mode clair",
+    "dark": "Mode sombre"
+  },
+  "language": {
+    "label": "Langue",
+    "en": "Anglais",
+    "es": "Espagnol",
+    "fr": "Français"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "common": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "total": "total",
+    "refresh": "Refresh",
+    "add": "Add",
+    "save": "Save",
+    "cancel": "Cancel",
+    "search": "Search",
+    "clear": "Clear",
+    "filters": "Filters",
+    "hideFilters": "Hide Filters",
+    "exportExcel": "Export Excel",
+    "loading": "Loading...",
+    "noData": "No data available",
+    "records": "records",
+    "types": "types",
+    "signOut": "Sign Out",
+    "welcomeBack": "Welcome back",
+    "actions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "confirmDelete": "Are you sure you want to delete this record?"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "employees": "Employees",
+    "users": "Users",
+    "roles": "Roles",
+    "absenceTypes": "Absence Types",
+    "absences": "Absences",
+    "overview": "OVERVIEW",
+    "management": "MANAGEMENT",
+    "attendance": "ATTENDANCE",
+    "reports": "REPORTS"
+  },
+  "reports": {
+    "absencesTitle": "Absences Report",
+    "absencesSubtitle": "Pivot report showing total absence days per type for each employee."
+  },
+  "login": {
+    "title": "Welcome back",
+    "subtitle": "Sign in to your account to continue",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Sign In",
+    "submitting": "Signing in...",
+    "security": "Secured with end-to-end encryption",
+    "errors": {
+      "usernameRequired": "Username is required",
+      "passwordRequired": "Password is required",
+      "invalidCredentials": "Invalid credentials. Please try again.",
+      "connectionError": "Connection error. Please check your network and try again.",
+      "loginSuccess": "Login successful! Redirecting..."
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Overview of your Payment Evolution system",
+    "kpi": {
+      "employees": "Total Employees",
+      "users": "System Users",
+      "roles": "Roles",
+      "absences": "Absences (Month)"
+    },
+    "trends": {
+      "employees": "+3 this month",
+      "users": "+1 this week",
+      "roles": "Stable",
+      "absences": "-2 vs last month"
+    },
+    "charts": {
+      "absencesByMonth": "Absences by Month",
+      "currentYear": "Current Year",
+      "employeesByDept": "Employees by Department",
+      "distribution": "Distribution"
+    },
+    "quickAccess": "Quick Access",
+    "quickLinks": {
+      "employees": "View Employees",
+      "users": "Manage Users",
+      "roles": "Configure Roles",
+      "absences": "View Absences"
+    }
+  },
+  "employees": {
+    "title": "Employees",
+    "subtitle": "Manage your organization's employees",
+    "searchPlaceholder": "Search by name or ID...",
+    "addButton": "Add Employee",
+    "filters": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "status": "Status",
+      "all": "All",
+      "search": "Search",
+      "clear": "Clear"
+    },
+    "columns": {
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "hireDate": "Hire Date",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "view": "View",
+      "confirmDelete": "Are you sure you want to delete this employee?"
+    }
+  },
+  "users": {
+    "title": "Users",
+    "subtitle": "Manage system access and user accounts",
+    "searchPlaceholder": "Search by username or ID...",
+    "addButton": "Add User",
+    "columns": {
+      "id": "User ID",
+      "username": "Username",
+      "status": "Status"
+    }
+  },
+  "roles": {
+    "title": "Roles",
+    "subtitle": "Define access levels and permissions for your team",
+    "searchPlaceholder": "Search by role name...",
+    "addButton": "Add Role",
+    "columns": {
+      "id": "Role ID",
+      "name": "Name",
+      "status": "Status"
+    }
+  },
+  "absences": {
+    "title": "Absences",
+    "subtitle": "Track and manage employee leave records",
+    "addButton": "New Absence",
+    "dateFrom": "From",
+    "dateTo": "To",
+    "dateRange": "Date range:",
+    "clearFilter": "Clear",
+    "columns": {
+      "id": "ID",
+      "date": "Date",
+      "status": "Status"
+    }
+  },
+  "absenceTypes": {
+    "title": "Absence Types",
+    "subtitle": "Configure the types of leave available to employees",
+    "searchPlaceholder": "Search by description...",
+    "addButton": "Add Type",
+    "columns": {
+      "id": "ID",
+      "description": "Description",
+      "status": "Status"
+    }
+  },
+  "theme": {
+    "light": "Light mode",
+    "dark": "Dark mode"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "es": "Spanish",
+    "fr": "French"
+  }
+}
