@@ -1,73 +1,33 @@
-# React + TypeScript + Vite
+# Payment Evolution - Web App (Prueba Técnica)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es el frontend de una aplicación web desarrollada como **Prueba Técnica**. Su objetivo es demostrar la capacidad de integración y desarrollo completo del lado del cliente, consumiendo una API REST desarrollada en .NET.
 
-Currently, two official plugins are available:
+## Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+El proyecto fue desarrollado utilizando el siguiente stack tecnológico moderno:
 
-## React Compiler
+- **React 19**: Biblioteca principal para la construcción de interfaces de usuario.
+- **Vite**: Herramienta de construcción (bundler) ultrarrápida y servidor de desarrollo.
+- **TypeScript**: Superset de JavaScript para tipado estático y mayor seguridad en el desarrollo.
+- **Redux Toolkit**: Para la gestión global del estado de la aplicación (ej. autenticación).
+- **Kendo UI (KendoReact)**: Biblioteca de componentes premium utilizada ampliamente para:
+  - Tablas de datos (Grid) con paginación y filtros.
+  - Componentes de formulario (Inputs, DropDowns, DateRangePicker).
+  - Diálogos y Modales.
+  - Gráficos y visualizaciones (Charts).
+- **Axios**: Cliente HTTP para realizar peticiones e interactuar con el backend de forma segura mediante interceptores.
+- **React Router v7**: Manejo de rutas, navegación y "Lazy Loading" (carga diferida) para una carga óptima de componentes y vistas.
+- **i18next**: Soporte multilingüe para internacionalización (i18n).
+- **Vanilla CSS**: Sistema de diseño basado en variables y estilos puramente customizados, logrando una estética moderna tipo *Glassmorphism* sin depender de frameworks pesados de CSS.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Características Implementadas
 
-## Expanding the ESLint configuration
+- **Autenticación (Login)**: Protegido por JWT.
+- **Dashboard Resumen**: Con métricas y gráficos estadísticos.
+- **Gestión (CRUD)**: Módulos completos para listar, crear, editar y eliminar Empleados, Usuarios, Roles, Tipos de Ausencias y Ausencias.
+- **Reportes Pivotales**: Tabla dinámica para reportes de ausencias de empleados con totales por fila y columna.
+- **Diseño Responsivo y Temas**: Soporte para temas Claro/Oscuro dinámico e interfaz adaptada a diferentes tamaños de pantalla.
+- **Optimización**: Lazy loading en todas las rutas para reducir drásticamente el peso inicial.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+*Desarrollado como demostración de habilidades de diseño de UI/UX y conexión a servicios C# .NET.*
